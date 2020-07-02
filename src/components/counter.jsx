@@ -30,7 +30,7 @@ class Counter extends Component {
 
   formatCount() {
     const { value: count } = this.props.counter;
-    return count === 0 ? <h1>Zero</h1> : count;
+    return count === 0 ? <h4>Zero</h4> : count;
   }
 }
 
